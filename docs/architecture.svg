@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">PowerShell server health monitoring architecture</title>
+  <desc id="desc">Configuration flows to the PowerShell collector, which evaluates synthetic lab servers and writes reports and alert state.</desc>
+  <rect width="1200" height="560" fill="#f2f0e9"/>
+  <text x="70" y="70" font-family="Arial" font-size="30" font-weight="700" fill="#17211c">SERVER HEALTH MONITORING</text>
+  <text x="70" y="102" font-family="monospace" font-size="14" fill="#687169">SAFE LAB ARCHITECTURE · SYNTHETIC HOSTNAMES</text>
+  <g font-family="Arial" fill="#17211c">
+    <rect x="70" y="180" width="230" height="150" rx="8" fill="#ffffff" stroke="#aeb5ac"/>
+    <text x="95" y="225" font-size="17" font-weight="700">JSON CONFIGURATION</text>
+    <text x="95" y="260" font-size="14" fill="#687169">Targets · roles · services</text>
+    <text x="95" y="286" font-size="14" fill="#687169">Warning / critical thresholds</text>
+    <rect x="380" y="150" width="280" height="210" rx="8" fill="#17211c"/>
+    <text x="410" y="205" font-size="19" font-weight="700" fill="#d9ff43">POWERSHELL COLLECTOR</text>
+    <text x="410" y="245" font-size="14" fill="#ffffff">Connectivity · CIM · services</text>
+    <text x="410" y="273" font-size="14" fill="#ffffff">Threshold evaluation</text>
+    <text x="410" y="301" font-size="14" fill="#ffffff">Consecutive-failure logic</text>
+    <rect x="755" y="145" width="180" height="70" rx="6" fill="#ffffff" stroke="#aeb5ac"/>
+    <rect x="755" y="235" width="180" height="70" rx="6" fill="#ffffff" stroke="#aeb5ac"/>
+    <rect x="755" y="325" width="180" height="70" rx="6" fill="#ffffff" stroke="#aeb5ac"/>
+    <text x="785" y="176" font-size="15" font-weight="700">LAB-DC01</text><text x="785" y="197" font-size="12" fill="#687169">Directory Services</text>
+    <text x="785" y="266" font-size="15" font-weight="700">LAB-APP01</text><text x="785" y="287" font-size="12" fill="#687169">Application Server</text>
+    <text x="785" y="356" font-size="15" font-weight="700">LAB-FILE01</text><text x="785" y="377" font-size="12" fill="#687169">File Services</text>
+    <rect x="1000" y="180" width="140" height="150" rx="8" fill="#d9ff43" stroke="#17211c"/>
+    <text x="1022" y="225" font-size="16" font-weight="700">OUTPUTS</text>
+    <text x="1022" y="260" font-size="13">JSON report</text><text x="1022" y="285" font-size="13">CSV report</text><text x="1022" y="310" font-size="13">Alert state</text>
+  </g>
+  <g stroke="#738078" stroke-width="3" fill="none"><path d="M300 255 H365"/><path d="M660 255 H725"/><path d="M935 270 H985"/></g>
+  <g fill="#738078"><path d="M365 255 l-12 -7 v14z"/><path d="M725 255 l-12 -7 v14z"/><path d="M985 270 l-12 -7 v14z"/></g>
+  <text x="70" y="490" font-family="Arial" font-size="14" fill="#687169">No credentials, production hostnames, IP addresses, logs, or employer infrastructure are included.</text>
+</svg>
+

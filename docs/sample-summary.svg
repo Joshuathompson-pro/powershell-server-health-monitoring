@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic server health summary</title><desc id="desc">A sample dashboard showing one healthy, one warning, and one critical lab server.</desc>
+  <rect width="1200" height="500" rx="18" fill="#17211c"/>
+  <text x="60" y="72" font-family="Arial" font-size="30" font-weight="700" fill="#ffffff">Health summary</text>
+  <text x="60" y="103" font-family="monospace" font-size="13" fill="#aeb8b1">SYNTHETIC DEMO · 2026-10-26 09:00</text>
+  <g font-family="Arial">
+    <rect x="60" y="145" width="330" height="245" rx="10" fill="#233129"/><circle cx="95" cy="183" r="8" fill="#d9ff43"/><text x="120" y="190" fill="#ffffff" font-size="21" font-weight="700">LAB-DC01</text><text x="85" y="230" fill="#aeb8b1">CPU</text><text x="220" y="230" fill="#ffffff" font-weight="700">18%</text><text x="85" y="270" fill="#aeb8b1">MEMORY</text><text x="220" y="270" fill="#ffffff" font-weight="700">54%</text><text x="85" y="310" fill="#aeb8b1">DISK</text><text x="220" y="310" fill="#ffffff" font-weight="700">61%</text><text x="85" y="355" fill="#d9ff43" font-size="13" font-weight="700">HEALTHY</text>
+    <rect x="435" y="145" width="330" height="245" rx="10" fill="#233129"/><circle cx="470" cy="183" r="8" fill="#ffbf47"/><text x="495" y="190" fill="#ffffff" font-size="21" font-weight="700">LAB-APP01</text><text x="460" y="230" fill="#aeb8b1">CPU</text><text x="595" y="230" fill="#ffffff" font-weight="700">42%</text><text x="460" y="270" fill="#aeb8b1">MEMORY</text><text x="595" y="270" fill="#ffffff" font-weight="700">71%</text><text x="460" y="310" fill="#aeb8b1">DISK</text><text x="595" y="310" fill="#ffffff" font-weight="700">84%</text><text x="460" y="355" fill="#ffbf47" font-size="13" font-weight="700">WARNING</text>
+    <rect x="810" y="145" width="330" height="245" rx="10" fill="#233129"/><circle cx="845" cy="183" r="8" fill="#ff6b6b"/><text x="870" y="190" fill="#ffffff" font-size="21" font-weight="700">LAB-FILE01</text><text x="835" y="230" fill="#aeb8b1">CPU</text><text x="970" y="230" fill="#ffffff" font-weight="700">23%</text><text x="835" y="270" fill="#aeb8b1">MEMORY</text><text x="970" y="270" fill="#ffffff" font-weight="700">62%</text><text x="835" y="310" fill="#aeb8b1">DISK</text><text x="970" y="310" fill="#ffffff" font-weight="700">92%</text><text x="835" y="355" fill="#ff6b6b" font-size="13" font-weight="700">CRITICAL</text>
+  </g>
+  <text x="60" y="450" font-family="Arial" font-size="13" fill="#aeb8b1">Illustrative output created from synthetic sample data. Not a production screenshot.</text>
+</svg>
+

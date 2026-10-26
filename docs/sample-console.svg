@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="530" viewBox="0 0 1200 530" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic PowerShell console output</title><desc id="desc">A terminal-style sample of the server health monitoring demo.</desc>
+  <rect width="1200" height="530" rx="14" fill="#0d1511"/>
+  <rect width="1200" height="52" rx="14" fill="#25312a"/><circle cx="35" cy="26" r="7" fill="#ff6b6b"/><circle cx="60" cy="26" r="7" fill="#ffbf47"/><circle cx="85" cy="26" r="7" fill="#d9ff43"/><text x="525" y="33" font-family="monospace" font-size="14" fill="#aeb8b1">PowerShell 7</text>
+  <g font-family="monospace" font-size="17">
+    <text x="45" y="95" fill="#d9ff43">PS&gt;</text><text x="90" y="95" fill="#ffffff"> ./samples/Run-Demo.ps1</text>
+    <text x="45" y="145" fill="#69d2ff">SERVER HEALTH SUMMARY</text>
+    <text x="45" y="190" fill="#aeb8b1">Server       Role                 Status     CPU   Memory   Disk</text>
+    <text x="45" y="225" fill="#ffffff">LAB-DC01     Directory Services   Healthy    18%   54%      61%</text>
+    <text x="45" y="260" fill="#ffbf47">LAB-APP01    Application Server   Warning    42%   71%      84%</text>
+    <text x="45" y="295" fill="#ff6b6b">LAB-FILE01   File Services        Critical   23%   62%      92%</text>
+    <text x="45" y="355" fill="#aeb8b1">Healthy: 1   Warning: 1   Critical: 1   Alerts: 0</text>
+    <text x="45" y="400" fill="#aeb8b1">Reports written to: ./reports</text>
+    <text x="45" y="465" fill="#687169">Synthetic demo output — no live infrastructure contacted.</text>
+  </g>
+</svg>
+
