@@ -1,0 +1,27 @@
+{
+  "thresholds": {
+    "cpuWarningPercent": 85,
+    "memoryWarningPercent": 85,
+    "diskWarningPercent": 80,
+    "diskCriticalPercent": 90,
+    "consecutiveFailuresBeforeAlert": 2
+  },
+  "servers": [
+    {
+      "name": "LAB-DC01",
+      "role": "Directory Services",
+      "criticalServices": ["NTDS", "DNS"]
+    },
+    {
+      "name": "LAB-APP01",
+      "role": "Application Server",
+      "criticalServices": ["W3SVC"]
+    },
+    {
+      "name": "LAB-FILE01",
+      "role": "File Services",
+      "criticalServices": ["LanmanServer"]
+    }
+  ]
+}
+
