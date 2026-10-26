@@ -1,0 +1,6 @@
+reports/
+state/
+config/servers.json
+*.log
+.DS_Store
+
